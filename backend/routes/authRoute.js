@@ -20,12 +20,11 @@ router.post("/register", async (req, res) => {
 
       password: hashedPass,
 
-    });
 
 
 
 
-    
+
 
 
 
