@@ -71,9 +71,6 @@ def train_and_save_model(language, dataset_path):
     model_path = f"models/{language}_tech_debt.pkl"
     
     
-    
-    
-    
     joblib.dump({"model": model, "vectorizer": vectorizer}, model_path)
     print(f"💾 Saved model: {model_path}")
 
