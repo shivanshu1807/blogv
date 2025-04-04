@@ -72,16 +72,4 @@ def predict_technical_debt():
                 language = "java"
             elif filename.endswith(".cpp") or filename.endswith(".c"):
                 language = "cpp"
-            else:
-                language = "unknown"
-            
-            results[filename] = analyze_technical_debt(language, content)
-
-        return jsonify({"repository": repo, "commit": commit, "analysis": results})
-
-    except Exception as e:
-        print(f"Error: {str(e)}")  # Debugging line
-        return jsonify({"error": str(e)}), 500
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5001, debug=True)
+          
