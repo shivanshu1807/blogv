@@ -16,6 +16,10 @@ os.makedirs("datasets", exist_ok=True)
 LANGUAGES = ["python", "javascript", "java", "cpp", "c"]
 
 # Function to generate random code-like text
+
+
+
+
 def generate_random_code(language, num_samples=500):
     snippets = []
     for _ in range(num_samples):
