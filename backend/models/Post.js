@@ -12,6 +12,12 @@ const PostSchema = new mongoose.Schema(
       required: false,
     },
     photo: {
+
+
+
+
+
+      
       public_id: {
         type: String,
         required: false,
