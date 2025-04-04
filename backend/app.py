@@ -79,5 +79,3 @@ for lang in LANGUAGES:
     train_and_save_model(lang, f"datasets/{lang}_tech_debt.csv")
     
     
-    
-    
