@@ -18,9 +18,6 @@ router.post("/register", async (req, res) => {
       email,
       password: hashedPass,
 
-
-
-      
     });
 
 
